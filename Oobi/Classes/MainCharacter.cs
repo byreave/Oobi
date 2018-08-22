@@ -14,9 +14,11 @@ namespace Oobi.Classes
         public int lives { set; get; }
         public Vector2 position { set; get; }
         public Vector2 velc { set; get; }
+        public Texture2D texture { set; get; }
 
-        public MainCharacter(Vector2 p, Vector2 v, int l = 0)
+        public MainCharacter(Texture2D t, Vector2 p, Vector2 v, int l = 0)
         {
+            texture = t;
             lives = l;
             position = p;
             velc = v;

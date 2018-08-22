@@ -15,3 +15,8 @@ E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\MonoGame.Framework.dl
 E:\MonoGames Projects\Oobi\Oobi\obj\Debug\Oobi.csprojResolveAssemblyReference.cache
 E:\MonoGames Projects\Oobi\Oobi\obj\Debug\Oobi.exe
 E:\MonoGames Projects\Oobi\Oobi\obj\Debug\Oobi.pdb
+E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\Content\CollectiblesA.xnb
+E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\Content\EnemyA.xnb
+E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\Content\EnemyB.xnb
+E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\Content\MainCharacter.xnb
+E:\MonoGames Projects\Oobi\Oobi\bin\DesktopGL\AnyCPU\Debug\Content\rope.xnb

@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Oobi.Classes;
+
 
 namespace Oobi
 {
@@ -12,11 +14,14 @@ namespace Oobi
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        Texture2D MainCharacter;
+        Texture2D MainCha;
         Texture2D EnemyA;
         Texture2D EnemyB;
         Texture2D CollecA;
         Texture2D Rope;
+
+        MainCharacter mc;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -46,6 +51,8 @@ namespace Oobi
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            MainCha = Content.Load<Texture2D>("MainCharacter");
+            mc = new MainCharacter(MainCha, Vector2.Zero, Vector2.Zero);
         }
 
         /// <summary>
@@ -81,7 +88,9 @@ namespace Oobi
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-
+            spriteBatch.Begin();
+            spriteBatch.Draw(mc.texture, mc.position, Color.White);
+            spriteBatch.End();
             base.Draw(gameTime);
         }
     }
