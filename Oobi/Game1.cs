@@ -11,7 +11,12 @@ namespace Oobi
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        
+
+        Texture2D MainCharacter;
+        Texture2D EnemyA;
+        Texture2D EnemyB;
+        Texture2D CollecA;
+        Texture2D Rope;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
