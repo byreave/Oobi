@@ -25,7 +25,7 @@ namespace Oobi.Classes
 
         public void Move(GameTime gameTime)
         {
-            position += velc * (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            position += velc * (float)gameTime.ElapsedGameTime.TotalSeconds;
         }
     }
 }

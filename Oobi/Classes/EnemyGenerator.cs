@@ -22,13 +22,13 @@ namespace Oobi.Classes
         public EnemyGenerator(int [] toe, Vector2 startP, Vector2 vel, double seconds = 1.0f, bool isR = true)
         {
             TypesOfEnemy = toe;
-            startP = StartPos;
+            StartPos = startP;
             EnemyVelc = vel;
             SecondsPerEnemy = seconds;
             IsRandom = isR;
 
             isPause = false;
-            timer = 0.0f;
+            timer = SecondsPerEnemy;
             index = 0;
         }
 

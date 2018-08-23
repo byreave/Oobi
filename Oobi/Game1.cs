@@ -15,7 +15,7 @@ namespace Oobi
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        
         Texture2D MainCha;
         List<Texture2D> EnemyIndex;
         List<Texture2D> ColleIndex;
@@ -48,7 +48,7 @@ namespace Oobi
             ViewportHeight = GraphicsDevice.Viewport.Height;
             // TODO: Add your initialization logic here
             int[] toe1 = { 0, 1 };
-            EnemyGenerator eneGen = new EnemyGenerator(toe1, new Vector2(ViewportWidth/2, 0), new Vector2(0, 100.0f));
+            EnemyGenerator eneGen = new EnemyGenerator(toe1, new Vector2(ViewportWidth / 2.0f, 0.0f), new Vector2(0, 100.0f));
             EnemyGenList.Add(eneGen);
             base.Initialize();
         }
@@ -134,6 +134,7 @@ namespace Oobi
             {
                 spriteBatch.Draw(EnemyIndex[e.type], e.position, Color.White);
             }
+            
             spriteBatch.End();
             base.Draw(gameTime);
         }
