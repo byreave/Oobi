@@ -4,10 +4,10 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/MonoGames Projects/Oobi/Oobi/Content/CollectiblesA.png</File>
-    <File>E:/MonoGames Projects/Oobi/Oobi/Content/EnemyA.png</File>
-    <File>E:/MonoGames Projects/Oobi/Oobi/Content/EnemyB.png</File>
-    <File>E:/MonoGames Projects/Oobi/Oobi/Content/MainCharacter.png</File>
-    <File>E:/MonoGames Projects/Oobi/Oobi/Content/rope.png</File>
+    <File>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/CollectiblesA.png</File>
+    <File>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/EnemyA.png</File>
+    <File>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/EnemyB.png</File>
+    <File>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/MainCharacter.png</File>
+    <File>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/rope.png</File>
   </SourceFiles>
 </SourceFileCollection>

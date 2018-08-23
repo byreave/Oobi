@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 using Oobi.Classes;
 
 
@@ -73,7 +74,23 @@ namespace Oobi
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+            if(TouchPanel.GetCapabilities().IsConnected)
+            {
+                TouchCollection touchCol = TouchPanel.GetState();
+                foreach (TouchLocation touch in touchCol)
+                {
+                    if (touch.State != TouchLocationState.Moved)
+                    {
 
+                    }
+                }
+            }
+            else
+            {
+                MouseState ms = Mouse.GetState();
+                mc.position = new Vector2(ms.Position.X, ms.Position.Y);
+            }
+            
             // TODO: Add your update logic here
 
             base.Update(gameTime);

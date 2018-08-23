@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>E:/MonoGames Projects/Oobi/Oobi/Content/EnemyA.png</SourceFile>
-  <SourceTime>2018-08-22T09:07:16.4414231-06:00</SourceTime>
-  <DestFile>E:/MonoGames Projects/Oobi/Oobi/Content/bin/DesktopGL/EnemyA.xnb</DestFile>
-  <DestTime>2018-08-22T14:19:35.0133367-06:00</DestTime>
+  <SourceFile>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/EnemyA.png</SourceFile>
+  <SourceTime>2018-08-22T16:26:04.2965099-06:00</SourceTime>
+  <DestFile>C:/Users/u1211442/Documents/GitHub/Oobi/Oobi/Content/bin/DesktopGL/EnemyA.xnb</DestFile>
+  <DestTime>2018-08-22T16:30:59.8784408-06:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T08:05:36-07:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
